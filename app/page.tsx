@@ -10,68 +10,68 @@ export default function Page() {
     };
 
     return (
-        <div className="font-sans text-gray-900 bg-white" data-oid="pvlmrpm">
+        <div className="font-sans text-gray-900 bg-white" data-oid="5o_uk-y">
             {/* Navigation */}
             <nav
                 className="fixed top-0 left-0 right-0 z-50 bg-black text-white py-4 px-6"
-                data-oid="km.pi0-"
+                data-oid="tegecgr"
             >
                 <div
                     className="max-w-7xl mx-auto flex justify-between items-center"
-                    data-oid="48v2yfg"
+                    data-oid="5gum5v-"
                 >
-                    <div className="flex space-x-6 text-sm" data-oid="ox::9sf">
+                    <div className="flex space-x-6 text-sm" data-oid=":y_9wwc">
                         <a
                             href="#hero"
                             className="hover:text-gray-300 transition-colors"
-                            data-oid="3ggndkk"
+                            data-oid="2rdu_f8"
                         >
                             HOME
                         </a>
                         <a
                             href="#benefits"
                             className="hover:text-gray-300 transition-colors"
-                            data-oid="5jfxmtx"
+                            data-oid="lbt3nir"
                         >
                             BENEFITS
                         </a>
                         <a
                             href="#process"
                             className="hover:text-gray-300 transition-colors"
-                            data-oid="vb6._p0"
+                            data-oid="0un811j"
                         >
                             PROCESS
                         </a>
                         <a
                             href="#location"
                             className="hover:text-gray-300 transition-colors"
-                            data-oid="ax50c:o"
+                            data-oid="srl.0rx"
                         >
                             LOCATION
                         </a>
                         <a
                             href="#about"
                             className="hover:text-gray-300 transition-colors"
-                            data-oid="ju2f:ut"
+                            data-oid="d9z3j5o"
                         >
                             ABOUT
                         </a>
                         <a
                             href="#services"
                             className="hover:text-gray-300 transition-colors"
-                            data-oid="44r1:56"
+                            data-oid="dnvtzas"
                         >
                             SERVICES
                         </a>
                         <a
                             href="#faq"
                             className="hover:text-gray-300 transition-colors"
-                            data-oid="g0kke1c"
+                            data-oid="7seibvl"
                         >
                             FAQ
                         </a>
                     </div>
-                    <div className="text-xl font-bold tracking-tight" data-oid="au4l430">
+                    <div className="text-xl font-bold tracking-tight" data-oid="0j83l5q">
                         KITEREPAIR
                     </div>
                 </div>
@@ -81,35 +81,35 @@ export default function Page() {
             <section
                 id="hero"
                 className="pt-24 relative h-screen flex items-center"
-                data-oid="6syc55m"
+                data-oid="zam:vrs"
             >
-                <div className="absolute inset-0 z-0" data-oid="-n3tjlt">
+                <div className="absolute inset-0 z-0" data-oid="bwvj1xy">
                     <div
                         className="w-full h-full bg-[url('https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80')] bg-cover bg-center opacity-80"
-                        data-oid="zv3usga"
+                        data-oid="u7dmrua"
                     ></div>
                 </div>
                 <div
                     className="relative z-10 max-w-7xl mx-auto px-6 text-center"
-                    data-oid=":lkz9_v"
+                    data-oid="km9j:t4"
                 >
                     <h1
                         className="text-5xl md:text-7xl font-light mb-6 leading-tight"
-                        data-oid="yi0y279"
+                        data-oid="zg2qlsm"
                     >
-                        Professionelle <br data-oid="hv72__x" />
-                        <span className="font-bold" data-oid="ro4kkx5">
+                        Professionelle <br data-oid="kw4o2l." />
+                        <span className="font-bold" data-oid="5k8rb31">
                             Kite Reparatur
                         </span>
                     </h1>
-                    <p className="text-xl max-w-2xl mx-auto mb-10" data-oid="_-fhjub">
+                    <p className="text-xl max-w-2xl mx-auto mb-10" data-oid=":a2gjc1">
                         Wir reparieren Ihren Kite schnell, zuverlässig und professionell. Unsere
                         erfahrene Segelmacherin sorgt dafür, dass Ihr Equipment wieder wie neu ist.
                     </p>
                     <a
                         href="#contact"
                         className="inline-block bg-black text-white px-8 py-4 text-lg font-medium hover:bg-gray-800 transition-colors"
-                        data-oid="9p8iwgh"
+                        data-oid="rkkmo:p"
                     >
                         ANGEBOT STELLEN
                     </a>
@@ -117,78 +117,78 @@ export default function Page() {
             </section>
 
             {/* 2. Benefits Section */}
-            <section id="benefits" className="bg-black text-white py-24" data-oid="pi0n635">
-                <div className="max-w-7xl mx-auto px-6" data-oid="xebbal4">
-                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="u-tk90e">
+            <section id="benefits" className="bg-black text-white py-24" data-oid="zedlk_p">
+                <div className="max-w-7xl mx-auto px-6" data-oid="l0gbo5s">
+                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="r-dqwi1">
                         UNSERE VORTEILE
                     </h2>
                     <div
                         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"
-                        data-oid="a20ksr7"
+                        data-oid="wdg_joz"
                     >
-                        <div className="text-center" data-oid="tz5_fs1">
-                            <div className="mb-6 flex justify-center" data-oid="k4fk50l">
+                        <div className="text-center" data-oid=".nxxv6c">
+                            <div className="mb-6 flex justify-center" data-oid="xp2x_fq">
                                 <img
                                     src="/images/benefits/repair.png"
                                     alt="Reparatur Icon"
                                     className="w-20 h-20 object-contain"
-                                    data-oid="e2f3pq_"
+                                    data-oid="m84wfg_"
                                 />
                             </div>
-                            <h3 className="text-xl font-medium mb-3" data-oid="t5i5jjg">
+                            <h3 className="text-xl font-medium mb-3" data-oid="uhjvo_9">
                                 Reparatur aller Hersteller
                             </h3>
-                            <p className="text-gray-400" data-oid="b-e5hih">
+                            <p className="text-gray-400" data-oid=".0ksf:f">
                                 Wir reparieren Kites aller Marken und Modelle mit höchster
                                 Präzision.
                             </p>
                         </div>
-                        <div className="text-center" data-oid="fg2e6os">
-                            <div className="mb-6 flex justify-center" data-oid="w8d5npu">
+                        <div className="text-center" data-oid="7.590cc">
+                            <div className="mb-6 flex justify-center" data-oid="wp:b1_1">
                                 <img
                                     src="/images/benefits/shipping.png"
                                     alt="Versand Icon"
                                     className="w-20 h-20 object-contain"
-                                    data-oid="3s8j456"
+                                    data-oid="iz6m1qx"
                                 />
                             </div>
-                            <h3 className="text-xl font-medium mb-3" data-oid="od:e60x">
+                            <h3 className="text-xl font-medium mb-3" data-oid="3huf6t5">
                                 Einsenden oder Abgeben
                             </h3>
-                            <p className="text-gray-400" data-oid="xrfi3ml">
+                            <p className="text-gray-400" data-oid="iqpm:vr">
                                 Senden Sie Ihren Kite ein oder geben Sie ihn direkt bei uns vor Ort
                                 ab.
                             </p>
                         </div>
-                        <div className="text-center" data-oid="6a1nvsg">
-                            <div className="mb-6 flex justify-center" data-oid=".n:frey">
+                        <div className="text-center" data-oid="k2drz-e">
+                            <div className="mb-6 flex justify-center" data-oid="t5a7iyw">
                                 <img
                                     src="/images/benefits/clock.png"
                                     alt="Uhr Icon"
                                     className="w-20 h-20 object-contain"
-                                    data-oid="9kape8t"
+                                    data-oid="thibcfl"
                                 />
                             </div>
-                            <h3 className="text-xl font-medium mb-3" data-oid="eyr--lf">
+                            <h3 className="text-xl font-medium mb-3" data-oid="6.yze-l">
                                 Angebot innerhalb 24h
                             </h3>
-                            <p className="text-gray-400" data-oid="hi:3a9e">
+                            <p className="text-gray-400" data-oid="-hr-a.4">
                                 Schnelle Bearbeitung und transparente Preise innerhalb eines Tages.
                             </p>
                         </div>
-                        <div className="text-center" data-oid="9kepf_c">
-                            <div className="mb-6 flex justify-center" data-oid="r7yacgl">
+                        <div className="text-center" data-oid="1fvadon">
+                            <div className="mb-6 flex justify-center" data-oid="j98w954">
                                 <img
                                     src="/images/benefits/calendar.png"
                                     alt="Kalender Icon"
                                     className="w-20 h-20 object-contain"
-                                    data-oid="b5o8fd."
+                                    data-oid="melz8-r"
                                 />
                             </div>
-                            <h3 className="text-xl font-medium mb-3" data-oid="n5-6mip">
+                            <h3 className="text-xl font-medium mb-3" data-oid="-nayw7y">
                                 Reparatur in 5 Werktagen
                             </h3>
-                            <p className="text-gray-400" data-oid="l_6.5:f">
+                            <p className="text-gray-400" data-oid="6-sbo22">
                                 Schnelle Bearbeitung, damit Sie schnell wieder aufs Wasser können.
                             </p>
                         </div>
@@ -197,83 +197,83 @@ export default function Page() {
             </section>
 
             {/* 3. Process Section */}
-            <section id="process" className="py-24 bg-white" data-oid="4tt8ry7">
-                <div className="max-w-7xl mx-auto px-6" data-oid="7qff0c.">
-                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="tk4comx">
+            <section id="process" className="py-24 bg-white" data-oid="fqjugi4">
+                <div className="max-w-7xl mx-auto px-6" data-oid="j6k03d8">
+                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="ob0jfhh">
                         UNSER PROZESS
                     </h2>
                     <div
                         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"
-                        data-oid="z9n3xnm"
+                        data-oid="_a0j:s4"
                     >
-                        <div className="relative" data-oid="9blivfx">
+                        <div className="relative" data-oid="4:gyzpm">
                             <div
                                 className="text-6xl font-bold text-gray-200 absolute -top-10 -left-4"
-                                data-oid="471bbpb"
+                                data-oid="v6fh1qp"
                             >
                                 1
                             </div>
                             <h3
                                 className="text-xl font-medium mb-3 relative z-10"
-                                data-oid="k.5j-xy"
+                                data-oid="zagoma2"
                             >
                                 Anfrage stellen
                             </h3>
-                            <p className="text-gray-600" data-oid=".734tsy">
+                            <p className="text-gray-600" data-oid="-6nzh_s">
                                 Kontaktieren Sie uns über das Formular oder telefonisch und
                                 beschreiben Sie den Schaden.
                             </p>
                         </div>
-                        <div className="relative" data-oid="f7lhb:2">
+                        <div className="relative" data-oid="vsk37x2">
                             <div
                                 className="text-6xl font-bold text-gray-200 absolute -top-10 -left-4"
-                                data-oid="11h6esn"
+                                data-oid=".b9_m7_"
                             >
                                 2
                             </div>
                             <h3
                                 className="text-xl font-medium mb-3 relative z-10"
-                                data-oid="83fir.g"
+                                data-oid="6zos7-t"
                             >
                                 Angebot erhalten
                             </h3>
-                            <p className="text-gray-600" data-oid="e1y25i5">
+                            <p className="text-gray-600" data-oid="vd6dukx">
                                 Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot
                                 von uns.
                             </p>
                         </div>
-                        <div className="relative" data-oid="-5wsh4u">
+                        <div className="relative" data-oid="cvegnep">
                             <div
                                 className="text-6xl font-bold text-gray-200 absolute -top-10 -left-4"
-                                data-oid="m0rp5j."
+                                data-oid="6zo75.."
                             >
                                 3
                             </div>
                             <h3
                                 className="text-xl font-medium mb-3 relative z-10"
-                                data-oid="wf9_y79"
+                                data-oid="s:q4ydd"
                             >
                                 Reparatur
                             </h3>
-                            <p className="text-gray-600" data-oid="h13cr9a">
+                            <p className="text-gray-600" data-oid="kpsgo:b">
                                 Nach Ihrer Zustimmung reparieren wir Ihren Kite mit höchster
                                 Sorgfalt.
                             </p>
                         </div>
-                        <div className="relative" data-oid=":74xd-j">
+                        <div className="relative" data-oid="bz1-wdp">
                             <div
                                 className="text-6xl font-bold text-gray-200 absolute -top-10 -left-4"
-                                data-oid="9i1vwui"
+                                data-oid="w0e6t-1"
                             >
                                 4
                             </div>
                             <h3
                                 className="text-xl font-medium mb-3 relative z-10"
-                                data-oid="78a3b3x"
+                                data-oid="vjtw:::"
                             >
                                 Rückgabe
                             </h3>
-                            <p className="text-gray-600" data-oid="b9:3api">
+                            <p className="text-gray-600" data-oid=".zg0cdr">
                                 Ihr reparierter Kite wird versandt oder kann vor Ort abgeholt
                                 werden.
                             </p>
@@ -283,23 +283,23 @@ export default function Page() {
             </section>
 
             {/* 4. Location Section */}
-            <section id="location" className="py-24 bg-gray-100" data-oid="e5i0wan">
-                <div className="max-w-7xl mx-auto px-6" data-oid="hvefju5">
-                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="jpcnrhr">
+            <section id="location" className="py-24 bg-gray-100" data-oid="_bzjpu_">
+                <div className="max-w-7xl mx-auto px-6" data-oid="9l2.pz9">
+                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="xq1ap7i">
                         STANDORT
                     </h2>
-                    <div className="aspect-w-16 aspect-h-9 h-[400px] w-full" data-oid="s1nrm.l">
+                    <div className="aspect-w-16 aspect-h-9 h-[400px] w-full" data-oid="e2kw5o4">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2346.1234567890123!2d11.1234!3d54.4321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTTCsDI1JzU1LjYiTiAxMcKwMDcnMjQuMiJF!5e0!3m2!1sde!2sde!4v1620000000000!5m2!1sde!2sde"
                             className="w-full h-full border-0"
                             allowFullScreen=""
                             loading="lazy"
                             title="Google Maps"
-                            data-oid="t2xrfl0"
+                            data-oid="ufipigs"
                         ></iframe>
                     </div>
-                    <div className="mt-8 text-center" data-oid="f_11pf.">
-                        <p className="text-xl" data-oid="vuwpw4n">
+                    <div className="mt-8 text-center" data-oid="s-mz117">
+                        <p className="text-xl" data-oid="4cur910">
                             Osterstraße 47, 23769 Fehmarn
                         </p>
                     </div>
@@ -307,58 +307,58 @@ export default function Page() {
             </section>
 
             {/* 5. About Section */}
-            <section id="about" className="py-24 bg-white" data-oid="9w0agy5">
-                <div className="max-w-7xl mx-auto px-6" data-oid=":et6mk6">
-                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="9.l0o:1">
+            <section id="about" className="py-24 bg-white" data-oid="jj_oid7">
+                <div className="max-w-7xl mx-auto px-6" data-oid="cwp5eww">
+                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="0nfyoq9">
                         UNSERE SEGELMACHERIN
                     </h2>
                     <div
                         className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
-                        data-oid="uzs-h5_"
+                        data-oid="zr98le2"
                     >
-                        <div data-oid="s.fr-2t">
+                        <div data-oid="6:gixmj">
                             <div
                                 className="aspect-w-1 aspect-h-1 rounded-full overflow-hidden w-3/4 mx-auto"
-                                data-oid="kz_y81i"
+                                data-oid="we58g9e"
                             >
                                 <img
                                     src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80"
                                     alt="Segelmacherin"
                                     className="object-cover w-full h-full"
-                                    data-oid="e515c-9"
+                                    data-oid="rviwba3"
                                 />
                             </div>
                         </div>
-                        <div data-oid="woadg4.">
-                            <h3 className="text-2xl font-medium mb-4" data-oid="thfctdf">
+                        <div data-oid=".1ovz.m">
+                            <h3 className="text-2xl font-medium mb-4" data-oid="wvxk7vi">
                                 Anna Schmidt
                             </h3>
-                            <p className="text-gray-600 mb-6" data-oid="._724rw">
+                            <p className="text-gray-600 mb-6" data-oid=".x9vj-q">
                                 Mit über 15 Jahren Erfahrung als Segelmacherin hat Anna ein
                                 besonderes Gespür für die Reparatur von Kites entwickelt. Ihre
                                 Präzision und ihr Fachwissen machen sie zur Expertin auf ihrem
                                 Gebiet.
                             </p>
-                            <div className="grid grid-cols-3 gap-4" data-oid="d22smyj">
+                            <div className="grid grid-cols-3 gap-4" data-oid="b3ncfvk">
                                 <img
                                     src="https://images.unsplash.com/photo-1559288972-9c5cd1f8e0f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
                                     alt="Arbeit 1"
                                     className="w-full h-32 object-cover"
-                                    data-oid="xh-jizp"
+                                    data-oid="n8a8get"
                                 />
 
                                 <img
                                     src="https://images.unsplash.com/photo-1565160837879-e2c5cdb98e6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
                                     alt="Arbeit 2"
                                     className="w-full h-32 object-cover"
-                                    data-oid="gbjbajk"
+                                    data-oid="ksadf88"
                                 />
 
                                 <img
                                     src="https://images.unsplash.com/photo-1565160837879-e2c5cdb98e6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
                                     alt="Arbeit 3"
                                     className="w-full h-32 object-cover"
-                                    data-oid="lq3vr-q"
+                                    data-oid="tspoeb4"
                                 />
                             </div>
                         </div>
@@ -367,12 +367,12 @@ export default function Page() {
             </section>
 
             {/* 6. Additional Services Section */}
-            <section id="services" className="py-24 bg-black text-white" data-oid="onfys:i">
-                <div className="max-w-7xl mx-auto px-6 text-center" data-oid="y8v4zo-">
-                    <h2 className="text-4xl font-light mb-8" data-oid="7f0lg0:">
+            <section id="services" className="py-24 bg-black text-white" data-oid="6fqe9mv">
+                <div className="max-w-7xl mx-auto px-6 text-center" data-oid="fuzrs3e">
+                    <h2 className="text-4xl font-light mb-8" data-oid="-u9sdye">
                         WEITERE SERVICES
                     </h2>
-                    <p className="text-xl mb-10 max-w-3xl mx-auto" data-oid="5k9p:bh">
+                    <p className="text-xl mb-10 max-w-3xl mx-auto" data-oid=":59zwqs">
                         Neben Kitereparaturen bieten wir auch Services für Twintips, Bars und
                         Surfboards an.
                     </p>
@@ -381,7 +381,7 @@ export default function Page() {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block border-2 border-white text-white px-8 py-4 text-lg font-medium hover:bg-white hover:text-black transition-colors"
-                        data-oid="zfs7i9y"
+                        data-oid="-1mls.a"
                     >
                         MEHR ERFAHREN
                     </a>
@@ -389,13 +389,13 @@ export default function Page() {
             </section>
 
             {/* 7. FAQ Section */}
-            <section id="faq" className="py-24 bg-white" data-oid="wxyn4ui">
-                <div className="max-w-3xl mx-auto px-6" data-oid="02_ocki">
-                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="t28mdri">
+            <section id="faq" className="py-24 bg-white" data-oid="srt4pd_">
+                <div className="max-w-3xl mx-auto px-6" data-oid="u4v36gn">
+                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="8:x22b2">
                         HÄUFIG GESTELLTE FRAGEN
                     </h2>
 
-                    <div className="space-y-4" data-oid="o8dq:6-">
+                    <div className="space-y-4" data-oid="2720eh6">
                         {[
                             {
                                 question: 'Wie lange dauert eine Reparatur?',
@@ -418,20 +418,20 @@ export default function Page() {
                                 answer: 'Ja, wir geben 6 Monate Garantie auf unsere Reparaturarbeiten. Diese gilt für Material- und Verarbeitungsfehler, nicht jedoch für normale Abnutzung oder erneute Beschädigung.',
                             },
                         ].map((faq, index) => (
-                            <div key={index} className="border border-gray-200" data-oid="w3al_jl">
+                            <div key={index} className="border border-gray-200" data-oid="1bao4a5">
                                 <button
                                     className="flex justify-between items-center w-full px-6 py-4 text-left font-medium"
                                     onClick={() => toggleAccordion(index)}
-                                    data-oid="jt1z75:"
+                                    data-oid="r_7v:.9"
                                 >
-                                    <span data-oid="do:zw5l">{faq.question}</span>
-                                    <span data-oid="q_o7zmi">
+                                    <span data-oid="totlug0">{faq.question}</span>
+                                    <span data-oid="4.2vpve">
                                         {activeAccordion === index ? '−' : '+'}
                                     </span>
                                 </button>
                                 {activeAccordion === index && (
-                                    <div className="px-6 py-4 bg-gray-50" data-oid="w.z_:7w">
-                                        <p className="text-gray-600" data-oid="7sgi40w">
+                                    <div className="px-6 py-4 bg-gray-50" data-oid="jcg9eo:">
+                                        <p className="text-gray-600" data-oid="iv5dibu">
                                             {faq.answer}
                                         </p>
                                     </div>
@@ -443,18 +443,18 @@ export default function Page() {
             </section>
 
             {/* Contact Form Section */}
-            <section id="contact" className="py-24 bg-gray-100" data-oid="lck91w9">
-                <div className="max-w-3xl mx-auto px-6" data-oid="ukxqzay">
-                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="ts:-h7j">
+            <section id="contact" className="py-24 bg-gray-100" data-oid="qwicc-6">
+                <div className="max-w-3xl mx-auto px-6" data-oid="cuv7mb3">
+                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="yspo6p5">
                         REPARATURANFRAGE
                     </h2>
-                    <form className="space-y-6" data-oid="ve.s7jb">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-oid="iop:ib7">
-                            <div data-oid="4pxruya">
+                    <form className="space-y-6" data-oid="4ttt8yj">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-oid="rko2xyy">
+                            <div data-oid="x:fdfib">
                                 <label
                                     htmlFor="name"
                                     className="block mb-2 text-sm font-medium"
-                                    data-oid="y.n_b-b"
+                                    data-oid=".j9k6ah"
                                 >
                                     Name
                                 </label>
@@ -463,14 +463,14 @@ export default function Page() {
                                     id="name"
                                     className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
                                     required
-                                    data-oid="ezyubx_"
+                                    data-oid="rtkkw::"
                                 />
                             </div>
-                            <div data-oid="weaf36b">
+                            <div data-oid="syqofi7">
                                 <label
                                     htmlFor="email"
                                     className="block mb-2 text-sm font-medium"
-                                    data-oid="1sb62bh"
+                                    data-oid="0f4npd6"
                                 >
                                     E-Mail
                                 </label>
@@ -479,15 +479,15 @@ export default function Page() {
                                     id="email"
                                     className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
                                     required
-                                    data-oid="imusyli"
+                                    data-oid="w7_a67r"
                                 />
                             </div>
                         </div>
-                        <div data-oid="lvni771">
+                        <div data-oid="igoi6_:">
                             <label
                                 htmlFor="kite"
                                 className="block mb-2 text-sm font-medium"
-                                data-oid="okyb5gl"
+                                data-oid="24g3gl1"
                             >
                                 Kite Modell
                             </label>
@@ -496,14 +496,14 @@ export default function Page() {
                                 id="kite"
                                 className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
                                 required
-                                data-oid="n17ccz3"
+                                data-oid="hf67-rb"
                             />
                         </div>
-                        <div data-oid="rpzr4eh">
+                        <div data-oid="zzued34">
                             <label
                                 htmlFor="message"
                                 className="block mb-2 text-sm font-medium"
-                                data-oid="wo6.9l1"
+                                data-oid="btcd54w"
                             >
                                 Beschreibung des Schadens
                             </label>
@@ -512,14 +512,14 @@ export default function Page() {
                                 rows="5"
                                 className="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
                                 required
-                                data-oid="a2qvwhw"
+                                data-oid="5cxh.:j"
                             ></textarea>
                         </div>
-                        <div className="text-center" data-oid="dw86pb.">
+                        <div className="text-center" data-oid="z7raqe8">
                             <button
                                 type="submit"
                                 className="inline-block bg-black text-white px-8 py-4 text-lg font-medium hover:bg-gray-800 transition-colors"
-                                data-oid="1a9k44a"
+                                data-oid="43nbda9"
                             >
                                 ANFRAGE SENDEN
                             </button>
@@ -529,48 +529,48 @@ export default function Page() {
             </section>
 
             {/* Footer */}
-            <footer className="bg-black text-white py-12" data-oid="w8-k_g-">
-                <div className="max-w-7xl mx-auto px-6" data-oid="tt8w5s3">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10" data-oid="usu4api">
-                        <div data-oid="lz1xv96">
-                            <h3 className="text-xl font-medium mb-4" data-oid="6rlqst.">
+            <footer className="bg-black text-white py-12" data-oid="mt0nite">
+                <div className="max-w-7xl mx-auto px-6" data-oid="yw46qn4">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10" data-oid="sv17gde">
+                        <div data-oid="7tj1vjj">
+                            <h3 className="text-xl font-medium mb-4" data-oid="k63rnb-">
                                 KITEREPAIR
                             </h3>
-                            <p className="text-gray-400" data-oid="fcozi8o">
+                            <p className="text-gray-400" data-oid="2rauu1r">
                                 Professionelle Reparatur für Ihren Kite.
                             </p>
                         </div>
-                        <div data-oid="2piw9og">
-                            <h3 className="text-xl font-medium mb-4" data-oid="0_u-1_o">
+                        <div data-oid="9enqgu0">
+                            <h3 className="text-xl font-medium mb-4" data-oid="m2qcqkd">
                                 KONTAKT
                             </h3>
-                            <p className="text-gray-400 mb-2" data-oid="qgh9i:k">
+                            <p className="text-gray-400 mb-2" data-oid="lyt_s6g">
                                 Osterstraße 47
                             </p>
-                            <p className="text-gray-400 mb-2" data-oid="82sp7hp">
+                            <p className="text-gray-400 mb-2" data-oid="w93gc0j">
                                 23769 Fehmarn
                             </p>
-                            <p className="text-gray-400 mb-2" data-oid="310mpx2">
+                            <p className="text-gray-400 mb-2" data-oid="7ul7p.n">
                                 Tel: +49 123 456789
                             </p>
-                            <p className="text-gray-400" data-oid="gwkrh47">
+                            <p className="text-gray-400" data-oid="_cp2k9t">
                                 E-Mail: info@kiterepair.de
                             </p>
                         </div>
-                        <div data-oid="6w-8gxp">
-                            <h3 className="text-xl font-medium mb-4" data-oid="gq-edqd">
+                        <div data-oid="hj.t1gb">
+                            <h3 className="text-xl font-medium mb-4" data-oid="0uiv67x">
                                 ÖFFNUNGSZEITEN
                             </h3>
-                            <p className="text-gray-400 mb-2" data-oid="8.9qk2z">
+                            <p className="text-gray-400 mb-2" data-oid="-9w2l9i">
                                 Mo-Fr: 9:00 - 17:00 Uhr
                             </p>
-                            <p className="text-gray-400 mb-6" data-oid="o5vcnms">
+                            <p className="text-gray-400 mb-6" data-oid="ytfs21d">
                                 Sa: Nach Vereinbarung
                             </p>
                             <a
                                 href="#contact"
                                 className="inline-block border border-white text-white px-6 py-2 text-sm font-medium hover:bg-white hover:text-black transition-colors"
-                                data-oid="fzar1xm"
+                                data-oid="d-v0awm"
                             >
                                 REPARATUR ANFRAGEN
                             </a>
@@ -578,7 +578,7 @@ export default function Page() {
                     </div>
                     <div
                         className="border-t border-gray-800 mt-10 pt-6 text-center text-gray-500 text-sm"
-                        data-oid="ea7xa6r"
+                        data-oid="8cxlrsz"
                     >
                         © {new Date().getFullYear()} KITEREPAIR. Alle Rechte vorbehalten.
                     </div>
