@@ -197,86 +197,98 @@ export default function Page() {
             </section>
 
             {/* 3. Process Section */}
-            <section id="process" className="py-24 bg-white" data-oid="fqjugi4">
-                <div className="max-w-7xl mx-auto px-6" data-oid="j6k03d8">
-                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="ob0jfhh">
+            {/* 3. Process Section */}
+            <section id="process" className="py-24 bg-white" data-oid="4tt8ry7">
+                <div className="max-w-7xl mx-auto px-6" data-oid="7qff0c.">
+                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="tk4comx">
                         UNSER PROZESS
                     </h2>
                     <div
-                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"
-                        data-oid="_a0j:s4"
+                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+                        data-oid="z9n3xnm"
                     >
-                        <div className="relative" data-oid="4:gyzpm">
-                            <div
-                                className="text-6xl font-bold text-gray-200 absolute -top-10 -left-4"
-                                data-oid="v6fh1qp"
-                            >
-                                1
+                        {/* Card 1 */}
+                        <div
+                            className="bg-white border-2 border-gray-200 rounded-lg"
+                            data-oid="9blivfx"
+                        >
+                            <div className="bg-black text-white p-4 text-center" data-oid="471bbpb">
+                                <span className="text-2xl font-bold" data-oid=":xz64qd">
+                                    1
+                                </span>
                             </div>
-                            <h3
-                                className="text-xl font-medium mb-3 relative z-10"
-                                data-oid="zagoma2"
-                            >
-                                Anfrage stellen
-                            </h3>
-                            <p className="text-gray-600" data-oid="-6nzh_s">
-                                Kontaktieren Sie uns über das Formular oder telefonisch und
-                                beschreiben Sie den Schaden.
-                            </p>
+                            <div className="p-6" data-oid="new-card-body-1">
+                                <h3 className="text-xl font-medium mb-3" data-oid="k.5j-xy">
+                                    Anfrage stellen
+                                </h3>
+                                <p className="text-gray-600" data-oid=".734tsy">
+                                    Kontaktieren Sie uns über das Formular oder telefonisch und
+                                    beschreiben Sie den Schaden.
+                                </p>
+                            </div>
                         </div>
-                        <div className="relative" data-oid="vsk37x2">
-                            <div
-                                className="text-6xl font-bold text-gray-200 absolute -top-10 -left-4"
-                                data-oid=".b9_m7_"
-                            >
-                                2
+
+                        {/* Card 2 */}
+                        <div
+                            className="bg-white border-2 border-gray-200 rounded-lg"
+                            data-oid="f7lhb:2"
+                        >
+                            <div className="bg-black text-white p-4 text-center" data-oid="11h6esn">
+                                <span className="text-2xl font-bold" data-oid="8wp31yo">
+                                    2
+                                </span>
                             </div>
-                            <h3
-                                className="text-xl font-medium mb-3 relative z-10"
-                                data-oid="6zos7-t"
-                            >
-                                Angebot erhalten
-                            </h3>
-                            <p className="text-gray-600" data-oid="vd6dukx">
-                                Innerhalb von 24 Stunden erhalten Sie ein unverbindliches Angebot
-                                von uns.
-                            </p>
+                            <div className="p-6" data-oid="new-card-body-2">
+                                <h3 className="text-xl font-medium mb-3" data-oid="83fir.g">
+                                    Angebot erhalten
+                                </h3>
+                                <p className="text-gray-600" data-oid="e1y25i5">
+                                    Innerhalb von 24 Stunden erhalten Sie ein unverbindliches
+                                    Angebot von uns.
+                                </p>
+                            </div>
                         </div>
-                        <div className="relative" data-oid="cvegnep">
-                            <div
-                                className="text-6xl font-bold text-gray-200 absolute -top-10 -left-4"
-                                data-oid="6zo75.."
-                            >
-                                3
+
+                        {/* Card 3 */}
+                        <div
+                            className="bg-white border-2 border-gray-200 rounded-lg"
+                            data-oid="-5wsh4u"
+                        >
+                            <div className="bg-black text-white p-4 text-center" data-oid="m0rp5j.">
+                                <span className="text-2xl font-bold" data-oid="f6zl1rt">
+                                    3
+                                </span>
                             </div>
-                            <h3
-                                className="text-xl font-medium mb-3 relative z-10"
-                                data-oid="s:q4ydd"
-                            >
-                                Reparatur
-                            </h3>
-                            <p className="text-gray-600" data-oid="kpsgo:b">
-                                Nach Ihrer Zustimmung reparieren wir Ihren Kite mit höchster
-                                Sorgfalt.
-                            </p>
+                            <div className="p-6" data-oid="new-card-body-3">
+                                <h3 className="text-xl font-medium mb-3" data-oid="wf9_y79">
+                                    Reparatur
+                                </h3>
+                                <p className="text-gray-600" data-oid="h13cr9a">
+                                    Nach Ihrer Zustimmung reparieren wir Ihren Kite mit höchster
+                                    Sorgfalt.
+                                </p>
+                            </div>
                         </div>
-                        <div className="relative" data-oid="bz1-wdp">
-                            <div
-                                className="text-6xl font-bold text-gray-200 absolute -top-10 -left-4"
-                                data-oid="w0e6t-1"
-                            >
-                                4
+
+                        {/* Card 4 */}
+                        <div
+                            className="bg-white border-2 border-gray-200 rounded-lg"
+                            data-oid=":74xd-j"
+                        >
+                            <div className="bg-black text-white p-4 text-center" data-oid="9i1vwui">
+                                <span className="text-2xl font-bold" data-oid="owj:_.v">
+                                    4
+                                </span>
                             </div>
-                            <h3
-                                className="text-xl font-medium mb-3 relative z-10"
-                                data-oid="vjtw:::"
-                            >
-                                Rückgabe
-                            </h3>
-                            <p className="text-gray-600" data-oid=".zg0cdr">
-                                Ihr reparierter Kite wird versandt oder kann vor Ort abgeholt
-                                werden.
-                            </p>
+                            <div className="p-6" data-oid="new-card-body-4">
+                                <h3 className="text-xl font-medium mb-3" data-oid="78a3b3x">
+                                    Rückgabe
+                                </h3>
+                                <p className="text-gray-600" data-oid="b9:3api">
+                                    Ihr reparierter Kite wird versandt oder kann vor Ort abgeholt
+                                    werden.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
