@@ -79,10 +79,22 @@
 }
 
 @layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-dinish;
+  }
+
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@font-face {
+  font-family: 'DINish Condensed';
+  src: url('/fonts/DINishCondensed-Medium.woff2') format('woff2'),
+       url('/fonts/DINishCondensed-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
