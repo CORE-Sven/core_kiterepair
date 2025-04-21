@@ -460,10 +460,88 @@ export default function Page() {
                                 <h3 className="text-xl font-medium mb-3" data-oid="16zxc80">
                                     Anfrage stellen
                                 </h3>
-                                <p className="text-gray-600" data-oid="lgqk5_t">
+                                <p className="text-gray-600 mb-6" data-oid="lgqk5_t">
                                     Kontaktieren Sie uns über das Formular oder telefonisch und
                                     beschreiben Sie den Schaden.
                                 </p>
+
+                                <div
+                                    className="mt-6 border-t pt-6 border-gray-200"
+                                    data-oid="xpprn78"
+                                >
+                                    <h4 className="text-lg font-medium mb-3" data-oid="te0f-sd">
+                                        Preiskalkulator
+                                    </h4>
+                                    <p className="text-sm text-gray-500 mb-4" data-oid="mf-hqbg">
+                                        Diese Preise dienen nur zur groben Orientierung. Die
+                                        tatsächlichen Kosten können je nach Position und Umfang des
+                                        Schadens variieren.
+                                    </p>
+
+                                    <div className="space-y-4" data-oid="4v9t7_c">
+                                        <div
+                                            className="grid grid-cols-2 gap-2 text-sm"
+                                            data-oid="3weg_sl"
+                                        >
+                                            <div className="font-medium" data-oid="dv0y0eh">
+                                                Kleiner Riss (bis 5cm)
+                                            </div>
+                                            <div className="text-right" data-oid="9gz6m-5">
+                                                ab 40€
+                                            </div>
+
+                                            <div className="font-medium" data-oid="ce491jh">
+                                                Mittlerer Riss (5-15cm)
+                                            </div>
+                                            <div className="text-right" data-oid="a_541:p">
+                                                ab 60€
+                                            </div>
+
+                                            <div className="font-medium" data-oid="o7zubsh">
+                                                Großer Riss (über 15cm)
+                                            </div>
+                                            <div className="text-right" data-oid="mzcpcxk">
+                                                ab 80€
+                                            </div>
+
+                                            <div className="font-medium" data-oid="guyvg8l">
+                                                Strut-Reparatur
+                                            </div>
+                                            <div className="text-right" data-oid="d1__sfm">
+                                                ab 50€
+                                            </div>
+
+                                            <div className="font-medium" data-oid="m67:.hf">
+                                                Leading Edge Reparatur
+                                            </div>
+                                            <div className="text-right" data-oid=".-wh3jx">
+                                                ab 70€
+                                            </div>
+
+                                            <div className="font-medium" data-oid="ljhcv8t">
+                                                Ventil-Austausch
+                                            </div>
+                                            <div className="text-right" data-oid="h:0cr:v">
+                                                ab 35€
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className="bg-gray-100 p-3 rounded-md text-sm"
+                                            data-oid="r355tev"
+                                        >
+                                            <p className="font-medium mb-1" data-oid="iumrf4f">
+                                                Hinweis:
+                                            </p>
+                                            <p className="text-gray-600" data-oid="oj-pm61">
+                                                Die endgültigen Kosten werden nach einer genauen
+                                                Begutachtung Ihres Kites oder Wings festgelegt.
+                                                Besonders kritische Stellen wie Nähte oder
+                                                Verstärkungen können den Preis beeinflussen.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
