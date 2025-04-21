@@ -471,9 +471,66 @@ export default function Page() {
                         </div>
                         {/* Card 1 */}
                         <div
-                            className="bg-white border-2 border-gray-200 rounded-lg"
+                            className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden"
                             data-oid="m5r8r7t"
-                        ></div>
+                        >
+                            <div
+                                className="relative bg-gradient-to-r from-black to-gray-900 text-white p-8 h-full"
+                                style={{
+                                    backgroundImage:
+                                        'linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(/images/l-cw.jpeg)',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+                                }}
+                                data-oid="aw24zgx"
+                            >
+                                <div
+                                    className="absolute top-0 right-0 bg-yellow-500 text-black font-bold py-1 px-4 transform rotate-0 origin-top-right"
+                                    data-oid="hw683ok"
+                                >
+                                    EXKLUSIV
+                                </div>
+
+                                <h3
+                                    className="text-3xl font-bold mb-4 text-yellow-400"
+                                    data-oid="j9u0x.d"
+                                >
+                                    FEHMARN EXKLUSIVE: ERSATZMATERIAL SICHERN
+                                </h3>
+
+                                <p className="text-xl mb-6 text-white" data-oid="7wk_39j">
+                                    Gibst du deinen Kite oder Wing direkt bei uns auf Fehmarn ab,
+                                    stellen wir dir für die Dauer der Reparatur aktuelles CORE
+                                    Demomaterial zur Verfügung.
+                                </p>
+
+                                <p className="text-xl font-bold text-yellow-300" data-oid="yohz32-">
+                                    So verpasst du keine Session!
+                                </p>
+
+                                <div className="mt-8 flex justify-start" data-oid="a39axi6">
+                                    <a
+                                        href="#contact"
+                                        className="inline-block bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg transition-colors"
+                                        data-oid="rp3q.s."
+                                    >
+                                        JETZT TERMIN VEREINBAREN
+                                    </a>
+                                </div>
+
+                                <div
+                                    className="absolute bottom-4 right-4 opacity-30"
+                                    data-oid="4fmx_th"
+                                >
+                                    <img
+                                        src="/images/benefits/repair.png"
+                                        alt="Core Logo"
+                                        className="w-16 h-16 object-contain"
+                                        data-oid="fdy4w0h"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div data-oid="nvq.ydr">
                         <div className="p-6" data-oid="g-d2:fo" key="olk-_6Bp">
