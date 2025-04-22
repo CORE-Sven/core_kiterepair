@@ -8,6 +8,7 @@ export default function Page() {
     const [repairType, setRepairType] = useState('small');
     const [repairLocation, setRepairLocation] = useState('canopy');
     const [estimatedPrice, setEstimatedPrice] = useState(40);
+    const [isCalculatorOpen, setIsCalculatorOpen] = useState(false);
 
     const toggleAccordion = (index) => {
         setActiveAccordion(activeAccordion === index ? null : index);
@@ -469,14 +470,35 @@ export default function Page() {
                                 </li>
                             </ol>
                         </div>
+
                         {/* Card 1 */}
                         <div
                             className="bg-white overflow-hidden rounded-none border-[#00000000] border-0"
                             data-oid="m5r8r7t"
                         >
+                            <div className="relative mb-8" data-oid="ovemn5x">
+                                <picture data-oid="qn0-t72">
+                                    {/* Mobile Bild (5:4) */}
+                                    <source
+                                        media="(max-width: 768px)"
+                                        srcSet="/images/CORE_demo_gear.jpeg"
+                                        className="w-full aspect-[5/4] object-cover"
+                                        data-oid="xlgyzv4"
+                                    />
+
+                                    {/* Desktop Bild (16:9) */}
+                                    <img
+                                        src="/images/CORE_demo_gear.jpeg"
+                                        alt="Unser Standort auf Fehmarn"
+                                        className="w-full aspect-[16/9] object-cover"
+                                        data-oid="huqd74w"
+                                    />
+                                </picture>
+                            </div>
                             <div
                                 className="relative h-full overflow-hidden border-[#00000000] bg-[#000000] bg-[url(/images/JsfT.jpeg)] text-[#00000000]"
                                 data-oid="aw24zgx"
+                                key="olk-da4y"
                             >
                                 {/* Hintergrundbild mit Overlay */}
 
@@ -485,33 +507,40 @@ export default function Page() {
                                     data-oid="d.lbhce"
                                     key="olk-C_Gv"
                                 >
+                                    {/* Dekorative Elemente */}
+
                                     <div
                                         className="absolute top-0 right-0 bg-yellow-500 text-black font-bold py-1 px-4 transform -rotate-0 origin-top-right"
                                         data-oid="hw683ok"
-                                        key="olk-Bi5V"
+                                        key="olk-NajC"
                                     >
                                         EXKLUSIV
                                     </div>
-
-                                    {/* Dekorative Elemente */}
-
                                     <div
                                         className="absolute top-12 left-0 w-16 h-16 rounded-full bg-yellow-500 opacity-10"
                                         data-oid="zpad1h1"
                                         key="olk-FOpl"
                                     ></div>
+
                                     <h3
                                         className="text-3xl font-bold mb-6 text-yellow-400 mt-6 drop-shadow-lg"
                                         data-oid="j9u0x.d"
                                         key="olk-2kBp"
                                     >
                                         FEHMARN EXKLUSIVE:{' '}
-                                        <br className="md:hidden" data-oid=".dgbqc-" />
-                                        <span className="text-white" data-oid="k.ksatt">
+                                        <br
+                                            className="md:hidden"
+                                            data-oid=".dgbqc-"
+                                            key="olk-hywF"
+                                        />
+                                        <span
+                                            className="text-white"
+                                            data-oid="k.ksatt"
+                                            key="olk-NvKa"
+                                        >
                                             ERSATZMATERIAL SICHERN
                                         </span>
                                     </h3>
-
                                     <div
                                         className="bg-opacity-40 p-4 rounded-lg backdrop-blur-sm bg-[#00000000]"
                                         data-oid="ijthk9g"
@@ -546,174 +575,212 @@ export default function Page() {
                                         filter: 'brightness(0.6) contrast(1.2)',
                                     }}
                                     data-oid="nk6q7_b"
+                                    key="olk-3xal"
                                 ></div>
 
                                 {/* Farbiges Overlay mit Gradient */}
-                                <div
-                                    className="absolute inset-0 z-10 bg-gradient-to-br from-black via-black to-yellow-900 opacity-[50%] bg-[#00000000]"
-                                    data-oid="_yd:_:a"
-                                ></div>
 
                                 {/* Inhalt */}
                             </div>
                         </div>
                     </div>
-                    <div data-oid="nvq.ydr">
-                        <div className="p-6" data-oid="g-d2:fo" key="olk-_6Bp">
-                            <div
-                                className="mt-6 border-t pt-6 border-gray-200 max-w-4xl"
-                                data-oid="xpprn78"
-                                key="olk-aUcO"
+                    <div className="mt-12 max-w-4xl mx-auto" data-oid="nvq.ydr">
+                        <div className="text-center mb-8" data-oid="xxgsmsr">
+                            <button
+                                onClick={() => setIsCalculatorOpen(!isCalculatorOpen)}
+                                className="inline-flex items-center justify-center px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"
+                                data-oid="vy6fq6."
                             >
-                                <h4 className="text-4xl l font-medium mb-3" data-oid="te0f-sd">
-                                    Interaktiver Preiskalkulator
-                                </h4>
-                                <p className="text-sm text-gray-500 mb-4" data-oid="mf-hqbg">
-                                    Berechnen Sie Ihren individuellen Preis. Diese Berechnung dient
-                                    nur zur groben Orientierung. Die tatsächlichen Kosten können
-                                    nach genauer Begutachtung variieren.
-                                </p>
-                                {/* Interaktiver Kalkulator */}
-                                <div className="space-y-6" data-oid="4v9t7_c">
-                                    <div
-                                        className="space-y-4 border border-gray-200 rounded-lg p-4 "
-                                        data-oid="q.9af4v"
-                                    >
-                                        <div data-oid="vgn4n.k">
-                                            <label
-                                                className="block text-sm font-medium mb-2"
-                                                data-oid=".4vc5oz"
+                                <span className="mr-2 font-medium" data-oid="lc.jt-_">
+                                    Preiskalkulator
+                                </span>
+                                <svg
+                                    className={`w-5 h-5 transition-transform duration-300 ${isCalculatorOpen ? 'rotate-180' : ''}`}
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    data-oid="bcbxu9p"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M19 9l-7 7-7-7"
+                                        data-oid="9f4122r"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+
+                        {/* Ausklappbarer Preiskalkulator */}
+                        <div
+                            className={`transition-all duration-500 ease-in-out overflow-hidden ${isCalculatorOpen ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}
+                            data-oid="annxjud"
+                        >
+                            <div
+                                className="p-6 border border-gray-200 rounded-lg shadow-md bg-white"
+                                data-oid="g-d2:fo"
+                                key="olk-_6Bp"
+                            >
+                                <div data-oid="xpprn78" key="olk-aUcO">
+                                    <h4 className="text-2xl font-medium mb-3" data-oid="te0f-sd">
+                                        Interaktiver Preiskalkulator
+                                    </h4>
+                                    <p className="text-sm text-gray-500 mb-4" data-oid="mf-hqbg">
+                                        Berechnen Sie Ihren individuellen Preis. Diese Berechnung
+                                        dient nur zur groben Orientierung. Die tatsächlichen Kosten
+                                        können nach genauer Begutachtung variieren.
+                                    </p>
+                                    {/* Interaktiver Kalkulator */}
+                                    <div className="space-y-6" data-oid="4v9t7_c">
+                                        <div
+                                            className="space-y-4 border border-gray-200 rounded-lg p-4 bg-gray-50"
+                                            data-oid="q.9af4v"
+                                        >
+                                            <div data-oid="vgn4n.k">
+                                                <label
+                                                    className="block text-sm font-medium mb-2"
+                                                    data-oid=".4vc5oz"
+                                                >
+                                                    Art des Schadens:
+                                                </label>
+                                                <select
+                                                    className="w-full p-2 border border-gray-300 rounded"
+                                                    value={repairType}
+                                                    onChange={(e) => setRepairType(e.target.value)}
+                                                    data-oid="u887amy"
+                                                >
+                                                    <option value="small" data-oid="r-wfr26">
+                                                        Kleiner Riss (bis 5cm)
+                                                    </option>
+                                                    <option value="medium" data-oid="o3rl7x8">
+                                                        Mittlerer Riss (5-15cm)
+                                                    </option>
+                                                    <option value="large" data-oid="viqwjid">
+                                                        Großer Riss (über 15cm)
+                                                    </option>
+                                                    <option value="valve" data-oid="v7y33pg">
+                                                        Ventil-Austausch
+                                                    </option>
+                                                </select>
+                                            </div>
+
+                                            <div data-oid="53cv25q">
+                                                <label
+                                                    className="block text-sm font-medium mb-2"
+                                                    data-oid="c55zdh9"
+                                                >
+                                                    Position des Schadens:
+                                                </label>
+                                                <select
+                                                    className="w-full p-2 border border-gray-300 rounded"
+                                                    value={repairLocation}
+                                                    onChange={(e) =>
+                                                        setRepairLocation(e.target.value)
+                                                    }
+                                                    data-oid="9y4hk3j"
+                                                >
+                                                    <option value="canopy" data-oid="s019e2e">
+                                                        Tuch (Standard)
+                                                    </option>
+                                                    <option value="seam" data-oid="ukx56me">
+                                                        Naht
+                                                    </option>
+                                                    <option value="strut" data-oid="6-i7q0f">
+                                                        Strut
+                                                    </option>
+                                                    <option value="leading" data-oid="r0y3.pu">
+                                                        Leading Edge
+                                                    </option>
+                                                </select>
+                                            </div>
+
+                                            <div
+                                                className="bg-black text-white p-4 rounded-md text-center"
+                                                data-oid="2qn6n4z"
                                             >
-                                                Art des Schadens:
-                                            </label>
-                                            <select
-                                                className="w-full p-2 border border-gray-300 rounded"
-                                                value={repairType}
-                                                onChange={(e) => setRepairType(e.target.value)}
-                                                data-oid="u887amy"
+                                                <p className="text-sm mb-1" data-oid="4wu:2je">
+                                                    Geschätzter Preis:
+                                                </p>
+                                                <p
+                                                    className="text-2xl font-bold"
+                                                    data-oid="e852dr5"
+                                                >
+                                                    {estimatedPrice}€
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        {/* Preistabelle als Referenz */}
+                                        <div className="mt-4" data-oid="t0_2fdn">
+                                            <h5
+                                                className="font-medium text-sm mb-2"
+                                                data-oid="f0j-tw7"
                                             >
-                                                <option value="small" data-oid="r-wfr26">
+                                                Basispreise zur Orientierung:
+                                            </h5>
+                                            <div
+                                                className="grid grid-cols-2 gap-2 text-sm"
+                                                data-oid="3weg_sl"
+                                            >
+                                                <div className="font-medium" data-oid="dv0y0eh">
                                                     Kleiner Riss (bis 5cm)
-                                                </option>
-                                                <option value="medium" data-oid="o3rl7x8">
+                                                </div>
+                                                <div className="text-right" data-oid="9gz6m-5">
+                                                    ab 40€
+                                                </div>
+
+                                                <div className="font-medium" data-oid="ce491jh">
                                                     Mittlerer Riss (5-15cm)
-                                                </option>
-                                                <option value="large" data-oid="viqwjid">
+                                                </div>
+                                                <div className="text-right" data-oid="a_541:p">
+                                                    ab 60€
+                                                </div>
+
+                                                <div className="font-medium" data-oid="o7zubsh">
                                                     Großer Riss (über 15cm)
-                                                </option>
-                                                <option value="valve" data-oid="v7y33pg">
+                                                </div>
+                                                <div className="text-right" data-oid="mzcpcxk">
+                                                    ab 80€
+                                                </div>
+
+                                                <div className="font-medium" data-oid="guyvg8l">
+                                                    Strut-Reparatur
+                                                </div>
+                                                <div className="text-right" data-oid="d1__sfm">
+                                                    ab 50€
+                                                </div>
+
+                                                <div className="font-medium" data-oid="m67:.hf">
+                                                    Leading Edge Reparatur
+                                                </div>
+                                                <div className="text-right" data-oid=".-wh3jx">
+                                                    ab 70€
+                                                </div>
+
+                                                <div className="font-medium" data-oid="ljhcv8t">
                                                     Ventil-Austausch
-                                                </option>
-                                            </select>
-                                        </div>
-
-                                        <div data-oid="53cv25q">
-                                            <label
-                                                className="block text-sm font-medium mb-2"
-                                                data-oid="c55zdh9"
-                                            >
-                                                Position des Schadens:
-                                            </label>
-                                            <select
-                                                className="w-full p-2 border border-gray-300 rounded"
-                                                value={repairLocation}
-                                                onChange={(e) => setRepairLocation(e.target.value)}
-                                                data-oid="9y4hk3j"
-                                            >
-                                                <option value="canopy" data-oid="s019e2e">
-                                                    Tuch (Standard)
-                                                </option>
-                                                <option value="seam" data-oid="ukx56me">
-                                                    Naht
-                                                </option>
-                                                <option value="strut" data-oid="6-i7q0f">
-                                                    Strut
-                                                </option>
-                                                <option value="leading" data-oid="r0y3.pu">
-                                                    Leading Edge
-                                                </option>
-                                            </select>
+                                                </div>
+                                                <div className="text-right" data-oid="h:0cr:v">
+                                                    ab 35€
+                                                </div>
+                                            </div>
                                         </div>
 
                                         <div
-                                            className="bg-black text-white p-4 rounded-md text-center"
-                                            data-oid="2qn6n4z"
+                                            className="bg-gray-100 p-3 rounded-md text-sm"
+                                            data-oid="r355tev"
                                         >
-                                            <p className="text-sm mb-1" data-oid="4wu:2je">
-                                                Geschätzter Preis:
+                                            <p className="font-medium mb-1" data-oid="iumrf4f">
+                                                Hinweis:
                                             </p>
-                                            <p className="text-2xl font-bold" data-oid="e852dr5">
-                                                {estimatedPrice}€
+                                            <p className="text-gray-600" data-oid="oj-pm61">
+                                                Die endgültigen Kosten werden nach einer genauen
+                                                Begutachtung Ihres Kites oder Wings festgelegt.
+                                                Besonders kritische Stellen wie Nähte oder
+                                                Verstärkungen können den Preis beeinflussen.
                                             </p>
                                         </div>
-                                    </div>
-
-                                    {/* Preistabelle als Referenz */}
-                                    <div className="mt-4" data-oid="t0_2fdn">
-                                        <h5 className="font-medium text-sm mb-2" data-oid="f0j-tw7">
-                                            Basispreise zur Orientierung:
-                                        </h5>
-                                        <div
-                                            className="grid grid-cols-2 gap-2 text-sm"
-                                            data-oid="3weg_sl"
-                                        >
-                                            <div className="font-medium" data-oid="dv0y0eh">
-                                                Kleiner Riss (bis 5cm)
-                                            </div>
-                                            <div className="text-right" data-oid="9gz6m-5">
-                                                ab 40€
-                                            </div>
-
-                                            <div className="font-medium" data-oid="ce491jh">
-                                                Mittlerer Riss (5-15cm)
-                                            </div>
-                                            <div className="text-right" data-oid="a_541:p">
-                                                ab 60€
-                                            </div>
-
-                                            <div className="font-medium" data-oid="o7zubsh">
-                                                Großer Riss (über 15cm)
-                                            </div>
-                                            <div className="text-right" data-oid="mzcpcxk">
-                                                ab 80€
-                                            </div>
-
-                                            <div className="font-medium" data-oid="guyvg8l">
-                                                Strut-Reparatur
-                                            </div>
-                                            <div className="text-right" data-oid="d1__sfm">
-                                                ab 50€
-                                            </div>
-
-                                            <div className="font-medium" data-oid="m67:.hf">
-                                                Leading Edge Reparatur
-                                            </div>
-                                            <div className="text-right" data-oid=".-wh3jx">
-                                                ab 70€
-                                            </div>
-
-                                            <div className="font-medium" data-oid="ljhcv8t">
-                                                Ventil-Austausch
-                                            </div>
-                                            <div className="text-right" data-oid="h:0cr:v">
-                                                ab 35€
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div
-                                        className="bg-gray-100 p-3 rounded-md text-sm"
-                                        data-oid="r355tev"
-                                    >
-                                        <p className="font-medium mb-1" data-oid="iumrf4f">
-                                            Hinweis:
-                                        </p>
-                                        <p className="text-gray-600" data-oid="oj-pm61">
-                                            Die endgültigen Kosten werden nach einer genauen
-                                            Begutachtung Ihres Kites oder Wings festgelegt.
-                                            Besonders kritische Stellen wie Nähte oder Verstärkungen
-                                            können den Preis beeinflussen.
-                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -724,24 +791,55 @@ export default function Page() {
 
             {/* 4. Location Section */}
             <section id="location" className="py-24 bg-gray-100" data-oid="cev:az7">
-                <div className="max-w-7xl mx-auto px-6" data-oid="p5u:o9e">
-                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="a0bpu4c">
+                <div className="max-w-7xl mx-auto px-6" data-oid="p5u:o9e" key="olk-8x1u">
+                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="kf:2f68">
                         STANDORT
                     </h2>
-                    <div className="aspect-w-16 aspect-h-9 h-[400px] w-full" data-oid="zk75-c-">
+                    <div className="relative mb-8" data-oid="l7anvwn">
+                        <picture data-oid="zr8vggm">
+                            {/* Mobile Bild (5:4) */}
+                            <source
+                                media="(max-width: 768px)"
+                                srcSet="/images/location-mobile.jpg"
+                                className="w-full aspect-[5/4] object-cover"
+                                data-oid="mr0yi9."
+                            />
+
+                            {/* Desktop Bild (16:9) */}
+                            <img
+                                src="/images/location-desktop.jpg"
+                                alt="Unser Standort auf Fehmarn"
+                                className="w-full aspect-[16/9] object-cover"
+                                data-oid="uilw17-"
+                            />
+                        </picture>
+                        {/* Overlay mit Adresse */}
+                        <div
+                            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center"
+                            data-oid="gsaqdfz"
+                        >
+                            <div className="text-center text-white" data-oid="20chi:d">
+                                <h3
+                                    className="text-2xl md:text-3xl font-bold mb-2"
+                                    data-oid="k48b_.c"
+                                >
+                                    Kiterepair Fehmarn
+                                </h3>
+                                <p className="text-lg md:text-xl" data-oid="h3bz9j:">
+                                    Osterstraße 45, 23769 Fehmarn
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="aspect-w-16 aspect-h-9 h-[400px] w-full" data-oid="phxi3io">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2346.1234567890123!2d11.199571159623646!3d54.43779355215773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTTCsDI2JzE2LjEiTiAxMcKwMTEnNTguNSJF!5e0!3m2!1sde!2sde!4v1620000000000!5m2!1sde!2sde"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150152.98765431202!2d11.199571159623646!3d54.43779355215773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTTCsDI2JzE2LjEiTiAxMcKwMTEnNTguNSJF!5e0!3m2!1sde!2sde!4v1620000000000!5m2!1sde!2sde"
                             className="w-full h-full border-0"
                             allowFullScreen={true}
                             loading="lazy"
                             title="Google Maps"
-                            data-oid="0ym85qg"
+                            data-oid="t9jp-rv"
                         ></iframe>
-                    </div>
-                    <div className="mt-8 text-center" data-oid="8a_b-v1">
-                        <p className="text-xl" data-oid="9_gygsm">
-                            Osterstraße 45, 23769 Fehmarn
-                        </p>
                     </div>
                 </div>
             </section>
