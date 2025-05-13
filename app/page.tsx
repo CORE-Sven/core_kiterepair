@@ -93,50 +93,43 @@ export default function Page() {
                     {/* Desktop Menu */}
                     <div className="hidden md:flex space-x-6 text-sm" data-oid="nwkbsvu">
                         <a
-                            href="#hero"
-                            className="hover:text-gray-300 transition-colors"
-                            data-oid="fy_97p2"
-                        >
-                            HOME
-                        </a>
-                        <a
                             href="#benefits"
-                            className="hover:text-gray-300 transition-colors"
+                            className="uppercase hover:text-gray-300 transition-colors"
                             data-oid="b8zabj5"
                         >
-                            BENEFITS
+                            VORTEILE
                         </a>
                         <a
                             href="#process"
-                            className="hover:text-gray-300 transition-colors"
+                            className="uppercase hover:text-gray-300 transition-colors"
                             data-oid="y8w_uzt"
                         >
-                            PROCESS
+                            Vorgehensweise
                         </a>
                         <a
                             href="#location"
-                            className="hover:text-gray-300 transition-colors"
+                            className="uppercase hover:text-gray-300 transition-colors"
                             data-oid="x5am939"
                         >
                             LOCATION
                         </a>
                         <a
                             href="#about"
-                            className="hover:text-gray-300 transition-colors"
+                            className="uppercase hover:text-gray-300 transition-colors"
                             data-oid="ddgsqxx"
                         >
-                            ABOUT
+                            Unsere Segelmacherin
                         </a>
                         <a
                             href="#services"
-                            className="hover:text-gray-300 transition-colors"
+                            className="uppercase hover:text-gray-300 transition-colors"
                             data-oid="_oilype"
                         >
                             SERVICES
                         </a>
                         <a
                             href="#faq"
-                            className="hover:text-gray-300 transition-colors"
+                            className="uppercase hover:text-gray-300 transition-colors"
                             data-oid="c23l4m7"
                         >
                             FAQ
@@ -151,32 +144,24 @@ export default function Page() {
                 >
                     <div className="flex flex-col space-y-4" data-oid="a16u---">
                         <a
-                            href="#hero"
-                            className="hover:text-gray-300 transition-colors"
-                            onClick={toggleMobileMenu}
-                            data-oid="9e.zczv"
-                        >
-                            HOME
-                        </a>
-                        <a
                             href="#benefits"
                             className="hover:text-gray-300 transition-colors"
                             onClick={toggleMobileMenu}
                             data-oid="az-tzhd"
                         >
-                            BENEFITS
+                            VORTEILE
                         </a>
                         <a
                             href="#process"
-                            className="hover:text-gray-300 transition-colors"
+                            className="uppercase hover:text-gray-300 transition-colors"
                             onClick={toggleMobileMenu}
                             data-oid="1blhoic"
                         >
-                            PROCESS
+                            Vorgehensweise
                         </a>
                         <a
                             href="#location"
-                            className="hover:text-gray-300 transition-colors"
+                            className="uppercase hover:text-gray-300 transition-colors"
                             onClick={toggleMobileMenu}
                             data-oid="ronh1gu"
                         >
@@ -184,15 +169,15 @@ export default function Page() {
                         </a>
                         <a
                             href="#about"
-                            className="hover:text-gray-300 transition-colors"
+                            className="uppercase hover:text-gray-300 transition-colors"
                             onClick={toggleMobileMenu}
                             data-oid="i1cz6q9"
                         >
-                            ABOUT
+                            Unsere Segelmacherin
                         </a>
                         <a
                             href="#services"
-                            className="hover:text-gray-300 transition-colors"
+                            className="uppercase hover:text-gray-300 transition-colors"
                             onClick={toggleMobileMenu}
                             data-oid="1_03fud"
                         >
@@ -213,7 +198,7 @@ export default function Page() {
             {/* 1. Hero Section */}
             <section
                 id="hero"
-                className="pt-24  h-screen flex flex-col justify-center pb-[20px]"
+                className="pt-24 pb-48 h-screen flex flex-col justify-center pb-[20px]"
                 data-oid="78_827:"
             >
                 <div
@@ -244,14 +229,14 @@ export default function Page() {
                         </p>
                         <a
                             href="#contact"
-                            className="inline-block border-2 border-white text-white px-8 py-4 text-lg font-medium hover:bg-white hover:text-black transition-colors"
+                            className=" uppercase inline-block border-2 border-white text-white px-8 py-4 text-lg font-medium hover:bg-white hover:text-black transition-colors"
                             data-oid="ookw5yo"
                         >
-                            Reperaturanfrage stellen
+                            Reparaturanfrage stellen
                         </a>
                     </div>
                     <div
-                        className="block sm:hidden w-full max-w-4xl mx-auto text-white p-4 mt-auto pr-[16px] pl-[16px] border-[#00000000] bg-[#00000084]"
+                        className="block sm:hidden w-full max-w-4xl mx-auto text-white p-4 mt-12 pr-[16px] pl-[16px] border-[#00000000] "
                         data-oid="2:fexk_"
                     >
                         <p className="text-sm" data-oid="1nt8psd">
@@ -268,7 +253,7 @@ export default function Page() {
             </section>
 
             {/* 2. Benefits Section */}
-            <section id="benefits" className="bg-black text-white py-24" data-oid="u7_1lmn">
+            <section id="benefits" className="bg-black pt-24 text-white py-24" data-oid="u7_1lmn">
                 <div className="max-w-7xl mx-auto px-6" data-oid="-xg4v3:">
                     <h2 className="text-4xl font-light mb-16 text-center" data-oid="lle.sin">
                         UNSERE VORTEILE
@@ -279,31 +264,65 @@ export default function Page() {
                     >
                         <div className="text-center" data-oid="g6oks46">
                             <div className="mb-6 flex justify-center" data-oid="2b5:cfz">
-                                <img
-                                    src="/images/benefits/repair.png"
-                                    alt="Reparatur Icon"
-                                    className="w-20 h-20 object-contain"
-                                    data-oid="4h6h6_3"
-                                />
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="40"
+                                    height="40"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="lucide lucide-sparkles-icon lucide-sparkles"
+                                    data-oid="2h7s.vj"
+                                >
+                                    <path
+                                        d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
+                                        data-oid="fdeq4hp"
+                                    />
+
+                                    <path d="M20 3v4" data-oid="_qaq_df" />
+                                    <path d="M22 5h-4" data-oid="-4-_c.t" />
+                                    <path d="M4 17v2" data-oid="hul67i6" />
+                                    <path d="M5 18H3" data-oid="osiwin3" />
+                                </svg>
                             </div>
-                            <h3 className="text-xl font-medium mb-3" data-oid="byuafs_">
-                                Reparatur aller Hersteller
+                            <h3 className="text-2xl font-medium uppercase mb-3" data-oid="byuafs_">
+                                Reparatur aller Hersteller*
                             </h3>
                             <p className="text-gray-400" data-oid="3sogj8f">
-                                Wir reparieren Kites aller Marken und Modelle mit höchster
+                                Wir reparieren Kites & Wings aller Marken und Modelle mit höchster
                                 Präzision.
                             </p>
                         </div>
                         <div className="text-center" data-oid="ljlpb05">
                             <div className="mb-6 flex justify-center" data-oid="w_1ll90">
-                                <img
-                                    src="/images/benefits/shipping.png"
-                                    alt="Versand Icon"
-                                    className="w-20 h-20 object-contain"
-                                    data-oid="x.y:vkh"
-                                />
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="40"
+                                    height="40"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="lucide lucide-package-check-icon lucide-package-check"
+                                    data-oid="oxwq0-8"
+                                >
+                                    <path d="m16 16 2 2 4-4" data-oid="t7uwdce" />
+                                    <path
+                                        d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"
+                                        data-oid="zg2v0zc"
+                                    />
+
+                                    <path d="m7.5 4.27 9 5.15" data-oid="c:zaa8z" />
+                                    <polyline points="3.29 7 12 12 20.71 7" data-oid="7db_1ph" />
+                                    <line x1="12" x2="12" y1="22" y2="12" data-oid="m4rt41s" />
+                                </svg>
                             </div>
-                            <h3 className="text-xl font-medium mb-3" data-oid="v55y5n:">
+                            <h3 className="text-2xl font-medium uppercase mb-3" data-oid="v55y5n:">
                                 Einsenden oder Abgeben
                             </h3>
                             <p className="text-gray-400" data-oid="mh8mas8">
@@ -313,34 +332,65 @@ export default function Page() {
                         </div>
                         <div className="text-center" data-oid="kplhsei">
                             <div className="mb-6 flex justify-center" data-oid=".9jwsfd">
-                                <img
-                                    src="/images/benefits/clock.png"
-                                    alt="Uhr Icon"
-                                    className="w-20 h-20 object-contain"
-                                    data-oid="0e0jvh-"
-                                />
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="40"
+                                    height="40"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="lucide lucide-timer-icon lucide-timer"
+                                    data-oid="q1mt49u"
+                                >
+                                    <line x1="10" x2="14" y1="2" y2="2" data-oid="6zxjozx" />
+                                    <line x1="12" x2="15" y1="14" y2="11" data-oid="uhoi6jy" />
+                                    <circle cx="12" cy="14" r="8" data-oid="z.q6qau" />
+                                </svg>
                             </div>
-                            <h3 className="text-xl font-medium mb-3" data-oid="dfugn:m">
-                                Angebot innerhalb 24h
+                            <h3 className="text-2xl font-medium uppercase mb-3" data-oid="dfugn:m">
+                                Angebot innerhalb 24 Stunden
                             </h3>
                             <p className="text-gray-400" data-oid="3xmz3z7">
-                                Schnelle Bearbeitung und transparente Preise innerhalb eines Tages.
+                                Unverbindliches Angebot mit klaren Preisen – garantiert innerhalb
+                                eines Werktags.
                             </p>
                         </div>
                         <div className="text-center" data-oid="7yygkf_">
                             <div className="mb-6 flex justify-center" data-oid="7.7bpuo">
-                                <img
-                                    src="/images/benefits/calendar.png"
-                                    alt="Kalender Icon"
-                                    className="w-20 h-20 object-contain"
-                                    data-oid="1uki_:p"
-                                />
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="40"
+                                    height="40"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="lucide lucide-calendar-clock-icon lucide-calendar-clock"
+                                    data-oid="ucg4vc0"
+                                >
+                                    <path
+                                        d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5"
+                                        data-oid="kl2.ih0"
+                                    />
+
+                                    <path d="M16 2v4" data-oid="ytnewxs" />
+                                    <path d="M8 2v4" data-oid="asebngy" />
+                                    <path d="M3 10h5" data-oid="xhsjhx9" />
+                                    <path d="M17.5 17.5 16 16.3V14" data-oid="zulyeak" />
+                                    <circle cx="16" cy="16" r="6" data-oid="44.h3_f" />
+                                </svg>
                             </div>
-                            <h3 className="text-xl font-medium mb-3" data-oid=":5:xexv">
+                            <h3 className="text-2xl font-medium uppercase mb-3" data-oid=":5:xexv">
                                 Reparatur in 5 Werktagen
                             </h3>
                             <p className="text-gray-400" data-oid="pp5ji19">
-                                Schnelle Bearbeitung, damit Sie schnell wieder aufs Wasser können.
+                                Zügige Instandsetzung – damit Sie in nur fünf Werktagen wieder
+                                startklar sind.
                             </p>
                         </div>
                     </div>
@@ -350,8 +400,11 @@ export default function Page() {
             {/* 3. Process Section */}
             <section id="process" className="py-24 bg-white" data-oid="jp5zkqv">
                 <div className="max-w-7xl mx-auto px-6" data-oid="hhf1v.h">
-                    <h2 className="text-4xl font-light mb-16 text-center" data-oid=":uvbhhg">
-                        UNSER PROZESS
+                    <h2
+                        className="text-4xl md:text-6xl  mb-16  text-center uppercase font-bold"
+                        data-oid=":uvbhhg"
+                    >
+                        Dein Weg zur schnellen Reparatur
                     </h2>
                     <div
                         className="grid grid-cols-1 md:grid-cols-[33%_67%] gap-6"
@@ -415,7 +468,7 @@ export default function Page() {
                                             {' '}
                                             Duotone, North, Cabrinha
                                         </strong>{' '}
-                                        - wir reparieren alle Marken'.
+                                        - wir reparieren alle Marken *.
                                     </p>
                                 </li>
                                 <li className="mb-10 ms-4" data-oid="rbsa0_0">
@@ -439,7 +492,7 @@ export default function Page() {
                                         className="text-base font-normal text-gray-500 dark:text-gray-400"
                                         data-oid="_heawzt"
                                     >
-                                        Innerhalb von <strong data-oid="2z0eejx">24h</strong>{' '}
+                                        Innerhalb von <strong data-oid="2z0eejx">24 Stunden</strong>
                                         erhältst du eine Einschätzung und ein Angebot.
                                     </p>
                                 </li>
@@ -464,19 +517,45 @@ export default function Page() {
                                         className="text-base font-normal text-gray-500 dark:text-gray-400"
                                         data-oid="ptgg:ye"
                                     >
-                                        Dein Kite oder Wing ist - sofern alle Ersatzteile vorliegen
-                                        n - innerhalb von 5 Werktagen repariert und ready to ride!
+                                        Dein Kite oder Wing ist – sofern alle Ersatzteile vorliegen
+                                        – innerhalb von 5 Werktagen repariert und ready to ride!
                                     </p>
                                 </li>
                             </ol>
                         </div>
-
+                        <div
+                            className="mt-8 pt-8   text-xs text-black    max-w-4xl mx-auto pl-4 py-2 bg-[#00000000] border-[#00000000] border-0"
+                            data-oid="exmra7m"
+                            key="olk-gQw9"
+                        >
+                            <p className="text-left" data-oid="5-b4jlp" key="olk-BMMD">
+                                * Sollten zur Reparatur deines Kites oder Wings Ersatzteile
+                                (Ventile, Bladder, o.ä.) anderer Marken notwendig sein, erfolgt die
+                                Bestellung und Bezahlung selbiger durch dich. Damit behältst du die
+                                volle Kontrolle über Qualität, Preis und Lieferzeit deiner
+                                Ersatzteile.
+                            </p>
+                            <p className="text-left mt-2" data-oid="dz:ovyq" key="olk-KeAM">
+                                Sobald alle benötigten Teile bei uns vorliegen, ist die Reparatur in
+                                der Regel innerhalb von fünf Arbeitstagen abgeschlossen. Risse oder
+                                sonstige Schäden, die ohne markenspezifische Ersatzteile auskommen,
+                                reparieren wir natürlich unmittelbar.
+                            </p>
+                            <p
+                                className="text-left font-semibold m-0"
+                                data-oid="_no4vxl"
+                                key="olk-vZvd"
+                            >
+                                Bitte beachte, dass wir darüber hinaus keine keine Garantie- oder
+                                Kulanzabwicklung für Fremdmarken (außer CORE) übernehmen können.
+                            </p>
+                        </div>
                         {/* Card 1 */}
                         <div
                             className="bg-white overflow-hidden rounded-none border-[#00000000] border-0"
                             data-oid="iped0:_"
                         >
-                            <div className="relative mb-8" data-oid="yc8j-wf">
+                            <div className="relative mb-8" data-oid="yc8j-wf" key="olk-4kO0">
                                 <picture data-oid="ynx1-x2">
                                     {/* Mobile Bild (5:4) */}
                                     <source
@@ -495,84 +574,13 @@ export default function Page() {
                                     />
                                 </picture>
                             </div>
-                            <div
-                                className="relative h-full overflow-hidden border-[#00000000] bg-[#000000] bg-[url(/images/JsfT.jpeg)] text-[#00000000]"
-                                data-oid="p4srmor"
-                            >
-                                {/* Hintergrundbild mit Overlay */}
-
-                                <div
-                                    className="relative z-20 p-8 flex flex-col rounded-none bg-none h-[261px]"
-                                    data-oid="e8kdbzc"
-                                >
-                                    {/* Dekorative Elemente */}
-
-                                    <div
-                                        className="absolute top-0 right-0 bg-yellow-500 text-black font-bold py-1 px-4 transform -rotate-0 origin-top-right"
-                                        data-oid="efjb:u:"
-                                    >
-                                        EXKLUSIV
-                                    </div>
-                                    <div
-                                        className="absolute top-12 left-0 w-16 h-16 rounded-full bg-yellow-500 opacity-10"
-                                        data-oid="a8fvo64"
-                                    ></div>
-
-                                    <h3
-                                        className="text-3xl font-bold mb-6 text-yellow-400 mt-6 drop-shadow-lg"
-                                        data-oid="sbt.l3o"
-                                    >
-                                        FEHMARN EXKLUSIVE:{' '}
-                                        <br className="md:hidden" data-oid="q.0u08x" />
-                                        <span className="text-white" data-oid="d:1wqs4">
-                                            ERSATZMATERIAL SICHERN
-                                        </span>
-                                    </h3>
-                                    <div
-                                        className="bg-opacity-40 p-4 rounded-lg backdrop-blur-sm bg-[#00000000]"
-                                        data-oid="qppbsuh"
-                                    >
-                                        <p className="text-xl mb-4 text-white" data-oid="yf902.t">
-                                            Gibst du deinen Kite oder Wing direkt bei uns auf
-                                            Fehmarn ab, stellen wir dir für die Dauer der Reparatur
-                                            aktuelles CORE Demomaterial zur Verfügung.
-                                        </p>
-
-                                        <p
-                                            className="text-xl font-bold text-yellow-300"
-                                            data-oid=".9ic6z9"
-                                        >
-                                            So verpasst du keine Session!
-                                        </p>
-                                    </div>
-
-                                    <div
-                                        className="absolute bottom-4 right-4 opacity-40"
-                                        data-oid="g_tkdz6"
-                                    ></div>
-                                </div>
-                                <div
-                                    className="absolute inset-0 z-0"
-                                    style={{
-                                        backgroundImage: 'url(/images/l-cw.jpeg)',
-                                        backgroundSize: 'cover',
-                                        backgroundPosition: 'center',
-                                        filter: 'brightness(0.6) contrast(1.2)',
-                                    }}
-                                    data-oid="aki5q3l"
-                                ></div>
-
-                                {/* Farbiges Overlay mit Gradient */}
-
-                                {/* Inhalt */}
-                            </div>
                         </div>
                     </div>
-                    <div className="mt-12 max-w-4xl mx-auto" data-oid="9l-tlyn">
-                        <div className="text-center m-16" data-oid="ms_g:eq">
+                    <div className=" mx-auto" data-oid="9l-tlyn">
+                        <div className="text-center" data-oid="ms_g:eq">
                             <button
                                 onClick={() => setIsCalculatorOpen(!isCalculatorOpen)}
-                                className="inline-flex items-center justify-center px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"
+                                className="inline-flex items-center justify-center px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black m-12 w-[184px]"
                                 data-oid="zru4:2o"
                             >
                                 <span className="mr-2 font-medium" data-oid="ktu0:l0">
@@ -768,6 +776,78 @@ export default function Page() {
                                 </div>
                             </div>
                         </div>
+                        <div
+                            className="relative h-full overflow-hidden border-[#00000000] bg-[#000000] bg-[url(/images/JsfT.jpeg)] text-[#00000000]"
+                            data-oid="p4srmor"
+                            key="olk-9VTZ"
+                        >
+                            {/* Hintergrundbild mit Overlay */}
+
+                            <div
+                                className="relative z-20 p-8 flex flex-col rounded-none bg-none h-[261px] w-full items-start"
+                                data-oid="oi6ym93"
+                            >
+                                {/* Dekorative Elemente */}
+
+                                <div
+                                    className="absolute top-0 right-0 bg-yellow-500 text-black font-bold py-1 px-4 transform -rotate-0 origin-top-right"
+                                    data-oid="s:kdf8b"
+                                >
+                                    EXKLUSIV
+                                </div>
+                                <div
+                                    className="absolute top-12 left-0 w-16 h-16 rounded-full bg-yellow-500 opacity-10"
+                                    data-oid="q0w9ggg"
+                                ></div>
+
+                                <h3
+                                    className="text-3xl font-bold mb-6 text-yellow-400 mt-6 drop-shadow-lg"
+                                    data-oid="3gby6xu"
+                                >
+                                    FEHMARN EXKLUSIVE:{' '}
+                                    <br className="md:hidden" data-oid="0_3a5oa" />
+                                    <span className="text-white" data-oid="-4u79eb">
+                                        ERSATZMATERIAL SICHERN
+                                    </span>
+                                </h3>
+                                <div
+                                    className="bg-opacity-40 p-4 rounded-lg backdrop-blur-sm bg-[#00000000]"
+                                    data-oid="r4tymu2"
+                                >
+                                    <p className="text-xl mb-4 text-white" data-oid="_isghjz">
+                                        Gibst du deinen Kite oder Wing direkt bei uns auf Fehmarn
+                                        ab, stellen wir dir für die Dauer der Reparatur aktuelles
+                                        CORE Demomaterial zur Verfügung.
+                                    </p>
+
+                                    <p
+                                        className="text-xl font-bold text-yellow-300"
+                                        data-oid="kdnu38g"
+                                    >
+                                        So verpasst du keine Session!
+                                    </p>
+                                </div>
+
+                                <div
+                                    className="absolute bottom-4 right-4 opacity-40"
+                                    data-oid="qq0uhc4"
+                                ></div>
+                            </div>
+                            <div
+                                className="absolute inset-0 z-0"
+                                style={{
+                                    backgroundImage: 'url(/images/l-cw.jpeg)',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+                                    filter: 'brightness(0.6) contrast(1.2)',
+                                }}
+                                data-oid="x46xq6x"
+                            ></div>
+
+                            {/* Farbiges Overlay mit Gradient */}
+
+                            {/* Inhalt */}
+                        </div>
                     </div>
                 </div>
             </section>
@@ -775,7 +855,10 @@ export default function Page() {
             {/* 4. Location Section */}
             <section id="location" className="py-24 bg-gray-100" data-oid="fk_k19d">
                 <div className="max-w-7xl mx-auto px-6" data-oid="pwghfur">
-                    <h2 className="text-4xl font-light mb-16 text-center" data-oid=".ygjoek">
+                    <h2
+                        className="text-4xl md:text-6xl  mb-16  text-center uppercase font-bold"
+                        data-oid=".ygjoek"
+                    >
                         STANDORT
                     </h2>
                     <div className="relative mb-8" data-oid="e336:7g">
@@ -814,7 +897,27 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-                    <div className="aspect-w-16 aspect-h-9 h-[400px] w-full" data-oid="wep_gtg">
+                    <div
+                        className="aspect-w-16 aspect-h-9 h-[600px] w-full relative group"
+                        data-oid="wep_gtg"
+                    >
+                        <div
+                            className="absolute inset-0 z-20 bg-white/50 backdrop-blur-md p-8 transition-opacity duration-300 ease-in-out group-hover:opacity-0 group-hover:pointer-events-none flex flex-col justify-center items-center text-center"
+                            data-oid="8u3.g33"
+                        >
+                            <h3 className="text-3xl font-bold mb-4 text-black" data-oid=".3rwou8">
+                                ZUHAUSE AUF FEHMARN
+                            </h3>
+                            <p className="text-gray-700 max-w-2xl mb-6" data-oid="y06lckl">
+                                In unserem Homespot auf Fehmarn beantwortet unser Team all deine
+                                Fragen und nimmt dein Kite oder Wing direkt entgegen. Darüber hinaus
+                                findest du alle aktuellen CORE Produkte in unserer Ausstellung und
+                                zum Test.
+                            </p>
+                            <span className="text-black font-bold" data-oid="-0bx_d9">
+                                CORE HOMESPOT
+                            </span>
+                        </div>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150152.98765431202!2d11.199571159623646!3d54.43779355215773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTTCsDI2JzE2LjEiTiAxMcKwMTEnNTguNSJF!5e0!3m2!1sde!2sde!4v1620000000000!5m2!1sde!2sde"
                             className="w-full h-full border-0"
@@ -830,7 +933,10 @@ export default function Page() {
             {/* 5. About Section */}
             <section id="about" className="py-24 bg-white" data-oid="m3cgtnv">
                 <div className="max-w-7xl mx-auto px-6" data-oid="sgnwv1v">
-                    <h2 className="text-4xl font-light mb-16 text-center" data-oid="vyvj:a-">
+                    <h2
+                        className="text-4xl md:text-6xl  mb-16  text-center uppercase font-bold"
+                        data-oid="vyvj:a-"
+                    >
                         UNSERE SEGELMACHERIN
                     </h2>
                     <div
@@ -852,35 +958,47 @@ export default function Page() {
                         </div>
                         <div data-oid="jcx72sn">
                             <h3 className="text-2xl font-medium mb-4" data-oid="6-ren7-">
-                                Anna Schmidt
+                                MANUELA ABKEN - EINE DER BESTEN IHRES FACHS
                             </h3>
                             <p className="text-gray-600 mb-6" data-oid="xeyw29m">
-                                Mit über 15 Jahren Erfahrung als Segelmacherin hat Anna ein
-                                besonderes Gespür für die Reparatur von Kites entwickelt. Ihre
-                                Präzision und ihr Fachwissen machen sie zur Expertin auf ihrem
-                                Gebiet.
+                                Unsere Segelmacherin Manuela Abken gehört zu den Besten ihres Fachs.
+                                Seit drei Jahrzehnten repariert sie Kites und Wings aller Marken auf
+                                höchstem Niveau. Unter dem Dach von CORE trifft meisterliches
+                                Handwerk auf professionelle Infrastruktur.
                             </p>
-                            <div className="grid grid-cols-3 gap-4" data-oid="c7:byw-">
-                                <img
-                                    src="https://images.unsplash.com/photo-1559288972-9c5cd1f8e0f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
-                                    alt="Arbeit 1"
-                                    className="w-full h-32 object-cover"
-                                    data-oid="6_..x7."
-                                />
-
-                                <img
-                                    src="https://images.unsplash.com/photo-1565160837879-e2c5cdb98e6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
-                                    alt="Arbeit 2"
-                                    className="w-full h-32 object-cover"
-                                    data-oid="1w4v.:7"
-                                />
-
-                                <img
-                                    src="https://images.unsplash.com/photo-1565160837879-e2c5cdb98e6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
-                                    alt="Arbeit 3"
-                                    className="w-full h-32 object-cover"
-                                    data-oid="mg9j_ai"
-                                />
+                            <div className="grid grid-cols-2 gap-4" data-oid="c7:byw-">
+                                <div className="col-span-1 md:col-span-2" data-oid="0jr0lwz">
+                                    <span className="font-bold" data-oid="gtqb9sg">
+                                        Erfahrung & Qualität <br data-oid="jn_xg24" />
+                                    </span>
+                                    Eine der besten Segelmacherinnen Deutschlands bringt deinen Kite
+                                    oder Wing zurück in Topform.
+                                </div>
+                                <div className="col-span-1 md:col-span-2" data-oid=":ws7yfy">
+                                    <span className="font-bold" data-oid="msff3t0">
+                                        {' '}
+                                        Demomaterial auf Fehmarn <br data-oid="ypyqtsu" />{' '}
+                                    </span>
+                                    Während der Reparatur stellen wir dir aktuelles CORE Material
+                                    zur Verfügung.
+                                </div>
+                                <div className="col-span-1 md:col-span-2" data-oid="ha_:kea">
+                                    <span className="font-bold" data-oid="x-z3c--">
+                                        {' '}
+                                        Express-Service <br data-oid="h1fn:br" />{' '}
+                                    </span>
+                                    Innerhalb von 24 Stunden erhältst du ein unverbindliches
+                                    Angebot.
+                                </div>
+                                <div className="col-span-1 md:col-span-2" data-oid=":hu:sm:">
+                                    <span className="font-bold" data-oid="gbc9a79">
+                                        {' '}
+                                        Schnelle Abwicklung
+                                        <br data-oid="-z7pmgb" />{' '}
+                                    </span>
+                                    In der Regel ist dein Kite innerhalb von 5 Werktagen wieder
+                                    einsatzbereit.
+                                </div>
                             </div>
                         </div>
                     </div>
