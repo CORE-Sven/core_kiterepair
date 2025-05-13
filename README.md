@@ -1,10 +1,7 @@
-# Onlook Starter Template
 
-<p align="center">
-  <img src="app/favicon.ico" />
-</p>
 
-This is an [Onlook](https://onlook.com/) project set up with
+
+This is an simple Landingpage set up with
 [Next.js](https://nextjs.org/), [TailwindCSS](https://tailwindcss.com/) and
 [ShadCN](https://ui.shadcn.com).
 
